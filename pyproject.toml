@@ -1,0 +1,20 @@
+[project]
+name = "weather-intelligence"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aryan", email = "being.aryan98@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "colorama>=0.4.6",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+weather-intelligence = "weather_intelligence:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
